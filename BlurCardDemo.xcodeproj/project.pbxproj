@@ -1,0 +1,650 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C9D3F33C2C0272E3006DB4D8 /* BlurCardDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9D3F33B2C0272E3006DB4D8 /* BlurCardDemoApp.swift */; };
+		C9D3F3402C0272E3006DB4D8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9D3F33F2C0272E3006DB4D8 /* ContentView.swift */; };
+		C9D3F3422C0272E5006DB4D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9D3F3412C0272E5006DB4D8 /* Assets.xcassets */; };
+		C9D3F3472C0272E5006DB4D8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9D3F3462C0272E5006DB4D8 /* Preview Assets.xcassets */; };
+		C9D3F3512C0272E5006DB4D8 /* BlurCardDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9D3F3502C0272E5006DB4D8 /* BlurCardDemoTests.swift */; };
+		C9D3F35B2C0272E5006DB4D8 /* BlurCardDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9D3F35A2C0272E5006DB4D8 /* BlurCardDemoUITests.swift */; };
+		C9D3F35D2C0272E5006DB4D8 /* BlurCardDemoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9D3F35C2C0272E5006DB4D8 /* BlurCardDemoUITestsLaunchTests.swift */; };
+		C9D3F36D2C0285F2006DB4D8 /* SpaceGrotesk-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C9D3F36B2C0285F2006DB4D8 /* SpaceGrotesk-Medium.ttf */; };
+		C9D3F36E2C0285F2006DB4D8 /* SpaceGrotesk-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C9D3F36C2C0285F2006DB4D8 /* SpaceGrotesk-Regular.ttf */; };
+		C9D3F3712C0297F3006DB4D8 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9D3F3702C0297F3006DB4D8 /* CardView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C9D3F34D2C0272E5006DB4D8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C9D3F3302C0272E3006DB4D8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C9D3F3372C0272E3006DB4D8;
+			remoteInfo = BlurCardDemo;
+		};
+		C9D3F3572C0272E5006DB4D8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C9D3F3302C0272E3006DB4D8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C9D3F3372C0272E3006DB4D8;
+			remoteInfo = BlurCardDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C9D3F3382C0272E3006DB4D8 /* BlurCardDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlurCardDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9D3F33B2C0272E3006DB4D8 /* BlurCardDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlurCardDemoApp.swift; sourceTree = "<group>"; };
+		C9D3F33F2C0272E3006DB4D8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C9D3F3412C0272E5006DB4D8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C9D3F3432C0272E5006DB4D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C9D3F3442C0272E5006DB4D8 /* BlurCardDemo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BlurCardDemo.entitlements; sourceTree = "<group>"; };
+		C9D3F3462C0272E5006DB4D8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C9D3F34C2C0272E5006DB4D8 /* BlurCardDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlurCardDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9D3F3502C0272E5006DB4D8 /* BlurCardDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlurCardDemoTests.swift; sourceTree = "<group>"; };
+		C9D3F3562C0272E5006DB4D8 /* BlurCardDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlurCardDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9D3F35A2C0272E5006DB4D8 /* BlurCardDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlurCardDemoUITests.swift; sourceTree = "<group>"; };
+		C9D3F35C2C0272E5006DB4D8 /* BlurCardDemoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlurCardDemoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C9D3F36B2C0285F2006DB4D8 /* SpaceGrotesk-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SpaceGrotesk-Medium.ttf"; sourceTree = "<group>"; };
+		C9D3F36C2C0285F2006DB4D8 /* SpaceGrotesk-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SpaceGrotesk-Regular.ttf"; sourceTree = "<group>"; };
+		C9D3F3702C0297F3006DB4D8 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C9D3F3352C0272E3006DB4D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9D3F3492C0272E5006DB4D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9D3F3532C0272E5006DB4D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C9D3F32F2C0272E3006DB4D8 = {
+			isa = PBXGroup;
+			children = (
+				C9D3F33A2C0272E3006DB4D8 /* BlurCardDemo */,
+				C9D3F34F2C0272E5006DB4D8 /* BlurCardDemoTests */,
+				C9D3F3592C0272E5006DB4D8 /* BlurCardDemoUITests */,
+				C9D3F3392C0272E3006DB4D8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C9D3F3392C0272E3006DB4D8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C9D3F3382C0272E3006DB4D8 /* BlurCardDemo.app */,
+				C9D3F34C2C0272E5006DB4D8 /* BlurCardDemoTests.xctest */,
+				C9D3F3562C0272E5006DB4D8 /* BlurCardDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C9D3F33A2C0272E3006DB4D8 /* BlurCardDemo */ = {
+			isa = PBXGroup;
+			children = (
+				C9D3F33B2C0272E3006DB4D8 /* BlurCardDemoApp.swift */,
+				C9D3F33F2C0272E3006DB4D8 /* ContentView.swift */,
+				C9D3F3702C0297F3006DB4D8 /* CardView.swift */,
+				C9D3F3412C0272E5006DB4D8 /* Assets.xcassets */,
+				C9D3F36F2C0285F7006DB4D8 /* Fonts */,
+				C9D3F3432C0272E5006DB4D8 /* Info.plist */,
+				C9D3F3442C0272E5006DB4D8 /* BlurCardDemo.entitlements */,
+				C9D3F3452C0272E5006DB4D8 /* Preview Content */,
+			);
+			path = BlurCardDemo;
+			sourceTree = "<group>";
+		};
+		C9D3F3452C0272E5006DB4D8 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C9D3F3462C0272E5006DB4D8 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C9D3F34F2C0272E5006DB4D8 /* BlurCardDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				C9D3F3502C0272E5006DB4D8 /* BlurCardDemoTests.swift */,
+			);
+			path = BlurCardDemoTests;
+			sourceTree = "<group>";
+		};
+		C9D3F3592C0272E5006DB4D8 /* BlurCardDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C9D3F35A2C0272E5006DB4D8 /* BlurCardDemoUITests.swift */,
+				C9D3F35C2C0272E5006DB4D8 /* BlurCardDemoUITestsLaunchTests.swift */,
+			);
+			path = BlurCardDemoUITests;
+			sourceTree = "<group>";
+		};
+		C9D3F36F2C0285F7006DB4D8 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				C9D3F36B2C0285F2006DB4D8 /* SpaceGrotesk-Medium.ttf */,
+				C9D3F36C2C0285F2006DB4D8 /* SpaceGrotesk-Regular.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C9D3F3372C0272E3006DB4D8 /* BlurCardDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C9D3F3602C0272E5006DB4D8 /* Build configuration list for PBXNativeTarget "BlurCardDemo" */;
+			buildPhases = (
+				C9D3F3342C0272E3006DB4D8 /* Sources */,
+				C9D3F3352C0272E3006DB4D8 /* Frameworks */,
+				C9D3F3362C0272E3006DB4D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BlurCardDemo;
+			productName = BlurCardDemo;
+			productReference = C9D3F3382C0272E3006DB4D8 /* BlurCardDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C9D3F34B2C0272E5006DB4D8 /* BlurCardDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C9D3F3632C0272E5006DB4D8 /* Build configuration list for PBXNativeTarget "BlurCardDemoTests" */;
+			buildPhases = (
+				C9D3F3482C0272E5006DB4D8 /* Sources */,
+				C9D3F3492C0272E5006DB4D8 /* Frameworks */,
+				C9D3F34A2C0272E5006DB4D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C9D3F34E2C0272E5006DB4D8 /* PBXTargetDependency */,
+			);
+			name = BlurCardDemoTests;
+			productName = BlurCardDemoTests;
+			productReference = C9D3F34C2C0272E5006DB4D8 /* BlurCardDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C9D3F3552C0272E5006DB4D8 /* BlurCardDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C9D3F3662C0272E5006DB4D8 /* Build configuration list for PBXNativeTarget "BlurCardDemoUITests" */;
+			buildPhases = (
+				C9D3F3522C0272E5006DB4D8 /* Sources */,
+				C9D3F3532C0272E5006DB4D8 /* Frameworks */,
+				C9D3F3542C0272E5006DB4D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C9D3F3582C0272E5006DB4D8 /* PBXTargetDependency */,
+			);
+			name = BlurCardDemoUITests;
+			productName = BlurCardDemoUITests;
+			productReference = C9D3F3562C0272E5006DB4D8 /* BlurCardDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C9D3F3302C0272E3006DB4D8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					C9D3F3372C0272E3006DB4D8 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					C9D3F34B2C0272E5006DB4D8 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = C9D3F3372C0272E3006DB4D8;
+					};
+					C9D3F3552C0272E5006DB4D8 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = C9D3F3372C0272E3006DB4D8;
+					};
+				};
+			};
+			buildConfigurationList = C9D3F3332C0272E3006DB4D8 /* Build configuration list for PBXProject "BlurCardDemo" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C9D3F32F2C0272E3006DB4D8;
+			productRefGroup = C9D3F3392C0272E3006DB4D8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C9D3F3372C0272E3006DB4D8 /* BlurCardDemo */,
+				C9D3F34B2C0272E5006DB4D8 /* BlurCardDemoTests */,
+				C9D3F3552C0272E5006DB4D8 /* BlurCardDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C9D3F3362C0272E3006DB4D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9D3F3472C0272E5006DB4D8 /* Preview Assets.xcassets in Resources */,
+				C9D3F3422C0272E5006DB4D8 /* Assets.xcassets in Resources */,
+				C9D3F36E2C0285F2006DB4D8 /* SpaceGrotesk-Regular.ttf in Resources */,
+				C9D3F36D2C0285F2006DB4D8 /* SpaceGrotesk-Medium.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9D3F34A2C0272E5006DB4D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9D3F3542C0272E5006DB4D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C9D3F3342C0272E3006DB4D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9D3F33C2C0272E3006DB4D8 /* BlurCardDemoApp.swift in Sources */,
+				C9D3F3712C0297F3006DB4D8 /* CardView.swift in Sources */,
+				C9D3F3402C0272E3006DB4D8 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9D3F3482C0272E5006DB4D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9D3F3512C0272E5006DB4D8 /* BlurCardDemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9D3F3522C0272E5006DB4D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9D3F35D2C0272E5006DB4D8 /* BlurCardDemoUITestsLaunchTests.swift in Sources */,
+				C9D3F35B2C0272E5006DB4D8 /* BlurCardDemoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C9D3F34E2C0272E5006DB4D8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C9D3F3372C0272E3006DB4D8 /* BlurCardDemo */;
+			targetProxy = C9D3F34D2C0272E5006DB4D8 /* PBXContainerItemProxy */;
+		};
+		C9D3F3582C0272E5006DB4D8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C9D3F3372C0272E3006DB4D8 /* BlurCardDemo */;
+			targetProxy = C9D3F3572C0272E5006DB4D8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C9D3F35E2C0272E5006DB4D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C9D3F35F2C0272E5006DB4D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		C9D3F3612C0272E5006DB4D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = BlurCardDemo/BlurCardDemo.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BlurCardDemo/Preview Content\"";
+				DEVELOPMENT_TEAM = LN4JU8GNV7;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BlurCardDemo/Info.plist;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				"INFOPLIST_KEY_UISupportsDocumentBrowser[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UISupportsDocumentBrowser[sdk=iphonesimulator*]" = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.BrianMasse.BlurCardDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C9D3F3622C0272E5006DB4D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = BlurCardDemo/BlurCardDemo.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BlurCardDemo/Preview Content\"";
+				DEVELOPMENT_TEAM = LN4JU8GNV7;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BlurCardDemo/Info.plist;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				"INFOPLIST_KEY_UISupportsDocumentBrowser[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UISupportsDocumentBrowser[sdk=iphonesimulator*]" = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.BrianMasse.BlurCardDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C9D3F3642C0272E5006DB4D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LN4JU8GNV7;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.BrianMasse.BlurCardDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BlurCardDemo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BlurCardDemo";
+			};
+			name = Debug;
+		};
+		C9D3F3652C0272E5006DB4D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LN4JU8GNV7;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.BrianMasse.BlurCardDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BlurCardDemo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BlurCardDemo";
+			};
+			name = Release;
+		};
+		C9D3F3672C0272E5006DB4D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LN4JU8GNV7;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.BrianMasse.BlurCardDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BlurCardDemo;
+			};
+			name = Debug;
+		};
+		C9D3F3682C0272E5006DB4D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LN4JU8GNV7;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.BrianMasse.BlurCardDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BlurCardDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C9D3F3332C0272E3006DB4D8 /* Build configuration list for PBXProject "BlurCardDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9D3F35E2C0272E5006DB4D8 /* Debug */,
+				C9D3F35F2C0272E5006DB4D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C9D3F3602C0272E5006DB4D8 /* Build configuration list for PBXNativeTarget "BlurCardDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9D3F3612C0272E5006DB4D8 /* Debug */,
+				C9D3F3622C0272E5006DB4D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C9D3F3632C0272E5006DB4D8 /* Build configuration list for PBXNativeTarget "BlurCardDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9D3F3642C0272E5006DB4D8 /* Debug */,
+				C9D3F3652C0272E5006DB4D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C9D3F3662C0272E5006DB4D8 /* Build configuration list for PBXNativeTarget "BlurCardDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9D3F3672C0272E5006DB4D8 /* Debug */,
+				C9D3F3682C0272E5006DB4D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C9D3F3302C0272E3006DB4D8 /* Project object */;
+}
